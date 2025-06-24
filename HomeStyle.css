@@ -1,0 +1,158 @@
+/* General Styles */
+html {
+    background-image: linear-gradient(to bottom right, black, rgb(44, 44, 44));
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+}
+
+/* Header Section */
+.header-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+}
+
+.header-text {
+    text-align: center;
+}
+
+.maeve-logo {
+    height: 150px;
+    object-fit: contain;
+    background: white;
+    border-radius: 10px;
+    border: 4px solid;
+}
+
+/* Main Content Section */
+.main-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* About & Skills Layout */
+.about-skills-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 40px;
+}
+
+.about-me {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 30px;
+    text-align: left;
+    max-width: 700px;
+    min-height: 220px;
+    flex: 2 1 0;
+}
+
+.about-text {
+    max-width: 70%;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 1 0;
+}
+
+/* Skills Section */
+.skills {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 4%;
+}
+
+.skills-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.linked-skills {
+    columns: 2;
+    column-gap: 40px;
+    list-style: disc inside;
+    padding: 0;
+    margin: 0;
+    width: 350px;
+}
+
+.linked-skills li {
+    break-inside: avoid;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.linked-skills a {
+    color: black;
+}
+
+/* Resources Section */
+.resources {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-stack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.st-logo,
+.NET-logo {
+    width: 150px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+/* Contact Info */
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact-info img {
+    width: 50px;
+    height: auto;
+}
+
+.contact-text {
+    padding-left: 20px;
+}
+
+.headshot {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0;
+    display: block;
+}
