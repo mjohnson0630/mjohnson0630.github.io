@@ -3,7 +3,7 @@ html {
     background-image: linear-gradient(to bottom right, black, rgb(44, 44, 44));
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "Papyrus", "fantasy";
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
