@@ -3,7 +3,7 @@ html {
     background-image: linear-gradient(to bottom right, black, rgb(44, 44, 44));
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: "JetBrains Mono", monospace;
+    font-family: "Papyrus", "fantasy";
     color: white;
 }
 
@@ -38,6 +38,18 @@ html {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+}
+
+.top-nav {
+    list-style: none;
+    padding: 3%;
+    margin: auto;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 100px;
+    justify-content: center;
+    align-content: center;
 }
 
 /* About & Skills Layout */
